@@ -44,8 +44,8 @@ before they run, not after they fail.
 
   tech_stack:
     languages: [puthon,c++]                      # REQUIRED — e.g., ["Python", "TypeScript"]
-    frameworks: []                     # e.g., ["FastAPI", "React"]
-    ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
+    frameworks: [Fast API,React]                     # e.g., ["FastAPI", "React"]
+    ibm_technologies: [IBM BOB]               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
     databases: []                      # e.g., ["PostgreSQL", "Redis"]
     other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
 
