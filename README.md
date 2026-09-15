@@ -1,4 +1,4 @@
-# 🚀 [Your Project Title Here]
+# 🚀 [Fab Mind AI]
 
 > ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
 
@@ -8,36 +8,31 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
+| **Team Name** | [TEAM WARRIORS] |
 | **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Lead** | [Keval] — [26dce@charusat.edu.in] |
+| **Members** | [Kush Vansadadiya], [Prtham Parmar], [Jainik Panchal] |
 
 ---
 
 ## 🎯 Problem Statement
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
-
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+At 3nm/5nm chip nodes, a 1% yield drop costs tens of millions per month. Root causes
+hide across thousands of equipment sensors, process parameters, and defect images.
+Engineers spend weeks finding the cause manually — every day of delay is lost
+revenue. Process engineers also need to predict which upcoming batches are at risk
+before they run, not after they fail.
 
 ---
 
 ## 💡 Solution
 
-> In 2–3 sentences: What did you build? How does it solve the problem above?
-
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
-
+Phase 1: High-Throughput Edge Ingestion (The Senses)Deploy lightweight C++ edge agents directly on fab servers to stream sub-millisecond equipment data via standard SECS/GEM and OPC UA protocols. These agents compress and stream raw data into Apache Kafka, instantly routing text metrics to time-series databases and heavy defect images to object storage.Phase 2: Unified Data Fabric & Semantic Layer (The Brain)Consolidate the data into a unified platform like Databricks or Snowflake. Use a centralized Machine Learning Feature Store to map every physical wafer ID to its exact sensor profile, chemical log, and spatial defect map. This breaks down legacy vendor silos and gives the AI a complete, contextual picture of the manufacturing lifecycle.Phase 3: Hybrid AI Engine & Engineering Dashboard (The Action)Run dual-layered AI models: a Convolutional Neural Network (CNN) to instantly classify spatial wafer defects, and an XGBoost/LightGBM model to map feature relevance for root-cause isolation. Before an upcoming batch runs, a Physics-Informed Neural Network (PINN) runs a digital twin simulation, flagging out-of-bounds recipes and pushing proactive tuning alerts to engineers via a responsive React/WebGL dashboard.
 ---
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+Data Fusion & Root Cause IsolationMulti-Modal Data Ingestion: Automatically unifies time-series equipment sensors (FDC), spatial wafer maps, and high-resolution defect images into a single semantic layer.Automated Root-Cause Analysis: Uses advanced machine learning to instantly trace yield drops across thousands of process parameters, reducing troubleshooting time from weeks to minutes.Predictive Risk ModelingVirtual Metrology & Digital Twins: Simulates and predicts physical wafer properties between processing steps, catching deviations before actual physical inspection.Batch-Level Risk Scoring: Rates upcoming wafer lots using real-time machine learning models to identify high-risk anomalies before the recipe runs.Operational AutomationPrescriptive Parameter Tuning: Recommends exact equipment adjustments to process engineers to bring at-risk batches back into the safe yield window.Early-Warning Alerts: Flags drifting sensor signals or tool degradation before they cross critical control limits and cause scrap.
 
 ---
 
@@ -45,11 +40,11 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | [ Python, C++] |
+| **Frameworks** | [ FastAPI, REACT] |
+| **IBM Technologies** | [ IBM Bob, IBM Cloud] |
+| **Databases** | [ PostgreSQL, Redis] |
+| **Other** | [Docker, GitHub Actions] |
 
 ---
 
