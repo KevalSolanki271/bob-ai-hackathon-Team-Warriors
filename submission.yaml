@@ -9,51 +9,51 @@
 # =============================================================================
 
 team:
-  name: ""                             # REQUIRED — e.g., "Orion Squad"
+  name: "TEAM WARRIORS"                             # REQUIRED — e.g., "Orion Squad"
   track: ""                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
   lead:
-    name: ""                           # REQUIRED — e.g., "Alice Chen"
-    email: ""                          # REQUIRED — e.g., "alice.chen@ibm.com"
-  members:
-    - name: ""                         # REQUIRED — Team member 1
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    name: "KEVAL SOLAKI"                           # REQUIRED — e.g., "Alice Chen"
+    email: "26dce106@charusat.edu.in"                          # REQUIRED — e.g., "alice.chen@ibm.com"
+  members:4
+    - name: "Kush Vansadadiya"                         # REQUIRED — Team member 1
+      email: "26dce117@charusat.edu.in"
+    - name: "Pratham Parmar"                         # Add more members by copying the two lines above
+      email: "26dce063@charusat.edu.in"
+    - name: "Jainik Panchal"
+      email: "26dce059@charusat.edu.in"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "Smart "                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
 
   problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
-    Replace this text with a concise description of the real-world problem
-    your project addresses and who experiences it.
+ At 3nm/5nm chip nodes, a 1% yield drop costs tens of millions per month. Root causes
+hide across thousands of equipment sensors, process parameters, and defect images.
+Engineers spend weeks finding the cause manually — every day of delay is lost
+revenue. Process engineers also need to predict which upcoming batches are at risk
+before they run, not after they fail.
 
   solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
-    Replace this text with a clear description of your solution
-    and how it addresses the problem above.
+   An AI-driven root-cause and predictive analytics platform continuously ingests multi-modal data—equipment sensors, process logs, and defect images—to instantly isolate yield-killing anomalies via automated feature relevance mapping.
 
   key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    - ""                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    - ""
-    - ""
+    - "Multi Modal Data Ingestion"                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
+    - "Automated Root Cause Analysis"
+    - "Virtual Metrology"
     - ""                               # optional 4th
     - ""                               # optional 5th
 
   tech_stack:
-    languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
+    languages: [puthon,c++]                      # REQUIRED — e.g., ["Python", "TypeScript"]
     frameworks: []                     # e.g., ["FastAPI", "React"]
     ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
     databases: []                      # e.g., ["PostgreSQL", "Redis"]
     other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
 
   what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
-    Replace with what aspect of the submission you consider strongest
-    and want judges to pay special attention to.
+    Sprinting past human limits: We have eliminated the stressful, needle-in-a-haystack search that forces brilliant engineers to spend weeks manual-hunting through billions of data points. Turning that grueling process into a one-click, minutes-long automated root cause isolation feels like giving engineers superpowers.
 
   known_limitations: >                 # Optional but recommended — be honest about gaps
-    Replace with any known limitations, incomplete features,
-    or shortcuts taken due to time constraints.
+    The "Black Box" Trust Gap: Process engineers will not risk a $100 million fab line on an AI recommendation unless they understand why. Pure deep learning models lack the transparency needed for semiconductor physics, requiring complex Explainable AI (XAI) layers to prove their logic.The Cold-Start Data Drought: At advanced 3nm/5nm nodes, processes change constantly. AI relies on historical data to predict failures, meaning it struggles to catch brand-new, never-before-seen defect mechanisms or anomalies caused by newly introduced equipment recipes.
 
 # =============================================================================
 # ARTIFACT LOCATIONS
